@@ -5,7 +5,5 @@ pin = 0
 freq = 3000
 
 def pwmWrite():
-  
-
-RPL.pinMode(0, RPL.PWM)
-RPL.pwmWrite(0, freq, 3000)
+  RPL.pinMode(0, RPL.PWM)
+  RPL.pwmWrite(0, freq, 3000)
